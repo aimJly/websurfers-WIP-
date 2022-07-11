@@ -129,7 +129,13 @@ button {
     text-align: left;
   }
 }
-  
+/* dont work hero .cta button
+@media screen and (max-width: 500px) {
+  .container{
+    width:500px;
+    height:200px;
+  }
+} */
 
 button:hover {
   color: #2d63c8;
@@ -174,6 +180,11 @@ padding-left: 300px;
     display: block;
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+@media screen and (max-width: 500px){
+  .aboutus-thumb{
+width:400px;
   }
 }
 
