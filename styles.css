@@ -452,18 +452,30 @@ body {
 
 /* end blog v2 */
 
-/* Start Feature CSS */
-.btn{ background-color: #3014b1;
+/* Start Feature CSS page 2*  btn and feature content link connected */
+.btn{ 
+
+  font-size: 19px;
+  border: 1px solid #2d63c8;
+  box-shadow: 5px 10px 10px rgb(27 168 250);
+  padding: 15px 50px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: relative;
+  left: 100px;
+  top: 0;
 
 }
 .text{
   color:#000000;
 }
 
-.btn:hover { background: #ff0ecb; }
+.btn:hover { background: #fcfcfc;  
+  color: #2d63c8;
+}
 
 .feature-content {
-    background: #c7a3a3;
+  background: linear-gradient(40deg, #c1c9c9, #2b2b2c);
    max-width: 700px;
     padding-bottom: 40px;
     display: block; /* these 2 code center it all */
@@ -490,11 +502,22 @@ body {
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
-}
+            color: #ffffff;
+            background-color: #000000;
+            font-size: 19px;
+           
+        }
+
+
+        .feature-about-section{
+          
+
+        }
+/*
 .feature-content-link:hover, .feature-content-link:link, .feature-content-link:visited  {
   color: rgb(247, 239, 239);
   text-decoration: none;
-}
+} */
 @media only screen and (max-width: 767px) {
 
 .feature-content {
