@@ -114,21 +114,13 @@ button {
   padding: 15px 50px;
   cursor: pointer;
   border-radius:12px;
-
   position:relative;
   left:100px;
   top:0;
 
 
 }
-@media screen and (max-width: 500px) {
-  .hero-cta a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
+
 /* dont work hero .cta button
 @media screen and (max-width: 500px) {
   .container{
@@ -155,6 +147,33 @@ header {
   background: rgb(0, 0, 0);
   overflow: hidden;
 }
+
+
+@media screen and (max-width: 500px) {
+  .hero-cta a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .countainer{
+    width:300px;
+    }
+    .hero-cta  {
+      width:300px;
+      }
+      .centered{
+        position:relative;
+        left:100px;
+       font-weight: 100;
+       position: relative;
+       text-align: center;
+      }
+}
+
+
+
+
 
 /* about us service*/
 .about-us{
@@ -314,6 +333,7 @@ h2{
 footer{
   background-color: #020100;
   height: 500px;
+  position: fixed.
 
 }
 ul{
@@ -642,3 +662,13 @@ h2 {
   }
 }
 */
+
+/*
+@media screen (max-width:500px;){
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+  }
+
+} */
