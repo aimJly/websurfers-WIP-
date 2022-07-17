@@ -14,6 +14,7 @@ body {
 h1{
   margin-top: 30px;
 }
+
 /*navigation*/
 .navbar {
   display: flex;
@@ -22,9 +23,8 @@ h1{
   justify-content: center;
   padding: 0.5rem;
   gap: 0.5rem;
-  border-bottom: solid 1px #aaa;
-  
-  background: linear-gradient(180deg, #FFFFFF 0%, #c0e9ec 100%), linear-gradient(90deg, #FFFFFF 0%, #0f7e8d 100%), #00ecfd;
+
+  background: linear-gradient(180deg, #FFFFFF 0%, #00F4FF 100%), linear-gradient(90deg, #ffffff 0%, #0f2a2e 100%)#00F4FF;
 background-blend-mode: multiply, screen, normal;
   
 }
@@ -166,7 +166,7 @@ header {
         position:relative;
         left:100px;
        font-weight: 100;
-       position: relative;
+    
        text-align: center;
       }
 }
@@ -178,8 +178,10 @@ header {
 /* about us service*/
 .about-us{
   margin-top: 200px;
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(205, 248, 240);
   margin-bottom: 100px;
+  border-top:solid #fffcfc;
+
 
 }
 
@@ -208,7 +210,7 @@ width:400px;
 }
 
 
-/* blog container*/
+/* blog container listing*/
 
 /* impractical .grid-container {
   background-color: rgb(58, 60, 61);
@@ -240,15 +242,17 @@ margin-bottom: 30px;
 }
 /*/
 h2{
-  color: black;
+  color: rgb(0, 0, 0);
   margin-top: 100px; 
    margin-bottom: 100px;
 
 
+
+
 ;
 }
-.h2-black{
-  color: #000000;
+.h2-white{
+  color: #ffffff;
 }
 .listing {
   list-style: none;
@@ -259,15 +263,17 @@ h2{
 
 }
 .listing li {
-  border: 1px solid #ffe066;
+  border-width: 3.5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(0, 255, 242), rgb(246, 245, 247)) 1;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(65, 131, 136);
+  background: linear-gradient(40deg, #5e7a7a, #2a2a2c)
 }
 .listing .cta {
   margin-top: auto;
-  border-top: 1px solid #ffe066;
+  border-top: 1px solid #9b957f;
   padding: 10px;
   text-align: center;
 
@@ -277,16 +283,36 @@ h2{
   background-color: #f7f6f4;
 }
 
+
+
 /* wrapper Why us*/
+
+ .body-whyus{
+  background: linear-gradient(45deg,#000000 0,#666a6d 100%)
+}
 .wrapper {
   max-width: 940px;
   margin: 0 auto;
+ 
 }
+.bounce-top{ color: white;
+border-top:solid #fffcfc;
+
+
+
+
+
+
+}
+
 
 .wrapper > div {
   border: 2px solid rgb(0, 0, 0);
+  border-width: 3.5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(0, 255, 242), rgb(246, 245, 247)) 1;
   border-radius: 5px;
-  background-color: rgba(255, 255, 252, 0.5);
+  background-color: rgb(255, 255, 255);
   padding:  1em 1em 2em 2em;
   color: #020100;
   margin-top: 50px;
@@ -328,10 +354,11 @@ h2{
   grid-row: 8;
 }
 
+
 /* footer */
 
 footer{
-  background-color: #020100;
+  
   height: 500px;
   position: fixed.
 
@@ -349,13 +376,19 @@ ul{
 }
 .end-footer{
   color:white;
+  background-image: linear-gradient(#00F4FF,rgb(9, 160, 165));
+  margin-bottom: 30px;
 
 }
 
 a{
-  color: #08d5f0;
+  color: #1008fb;
   list-style-type: none;
 
+}
+
+.h2-footer{
+  margin-top: auto;
 }
 
 @media screen and (max-width: 500px) {
@@ -366,6 +399,7 @@ a{
     text-align: left; /* If you want the text to be left-aligned on small screens */
   }
 }
+
 
 
 /* blog template page styles v2 */
@@ -476,10 +510,14 @@ body {
 
 .feature-content {
   background: linear-gradient(40deg, #c1c9c9, #2b2b2c);
+  border-width: 3.5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(0, 255, 242), rgb(246, 245, 247)) 1;
    max-width: 700px;
     padding-bottom: 40px;
     display: block; /* these 2 code center it all */
       margin: 0 auto;
+      margin-bottom: 80px;
 }
 .feature-content-title {
     padding: 0 20px;
@@ -622,9 +660,10 @@ h2 {
 .navi-logo{
   animation: yourAnimation 3s ease 2s infinite reverse none;
   font-size: 30px;
-  background: -webkit-linear-gradient( 45deg,rgb(12, 12, 12), rgb(1, 242, 250),blue);
+  background: -webkit-linear-gradient( 45deg,rgb(12, 12, 12, 100%), rgb(25, 85, 85),rgb(0, 247, 255));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-style: none;
 }
 
 /*logo demo*/
